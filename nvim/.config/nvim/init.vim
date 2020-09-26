@@ -35,6 +35,8 @@ Plug 'rakr/vim-one'
 Plug 'tyru/eskk.vim'
 Plug 'tyru/skkdict.vim'
 
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
 set number
