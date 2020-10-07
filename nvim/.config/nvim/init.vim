@@ -229,3 +229,7 @@ inoremap <C-Down> <Esc>:m .+1<CR>==gi
 inoremap <C-Up> <Esc>:m .-2<CR>==gi
 vnoremap <C-Down> :m '>+1<CR>gv=gv
 vnoremap <C-Up> :m '<-2<CR>gv=gv
+
+let g:VM_maps = {}
+let g:VM_maps["Move Right"] = '<C-S-Right>'
+let g:VM_maps["Move Left"] = '<C-S-Left>'
