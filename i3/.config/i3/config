@@ -152,7 +152,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # Wallpaper
-exec --no-startup-id feh --bg-fill /$HOME/Pictures/Wallpapers/Sci-fi-island-architecture-Wallpaper.jpg
+exec --no-startup-id ../../.fehbg 
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

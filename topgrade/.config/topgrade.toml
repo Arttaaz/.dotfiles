@@ -5,7 +5,7 @@
 #]
 
 # Disable specific steps - same options as the command line flag
-disable = ["go"]
+disable = ["go", "gem", "node"]
 
 # Run specific steps - same options as the command line flag
 #only = ["system", "emacs"]
