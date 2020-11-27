@@ -1,0 +1,5 @@
+{
+				//"flutter.sdk.flutter-lookup" : "$HOME/snap/flutter/common/flutter/bin",
+				//"flutter.sdk.dart-lookup" : "$HOME/snap/flutter/common/flutter/bin/cache/dart-sdk/bin",
+				//"flutter.trace.server" : "verbose"
+}
