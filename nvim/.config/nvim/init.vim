@@ -68,6 +68,8 @@ set background=dark
 " Don't forget set the airline theme as well.
 let g:airline_theme = 'one'
 
+let mapleader = "'"
+
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
