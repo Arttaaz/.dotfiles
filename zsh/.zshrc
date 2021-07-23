@@ -103,6 +103,16 @@ alias ls="ls --color=auto"
 alias flameshot="flameshot gui"
 export PATH=$PATH:$HOME/.cargo/bin/
 export PATH=$PATH:/usr/local/java/jre1.8.0_231/bin/
+export PATH=$PATH:/opt/android-studio/bin/
+export PATH=$PATH:$HOME/snap/flutter/common/flutter/bin/
+export PATH=$PATH:$HOME/snap/flutter/common/flutter/bin/cache/dart-sdk/bin/
+export PATH=$PATH:/opt/riscv/bin/
+export PATH=$PATH:$HOME/.local/Xilinx/Vivado/2020.2/bin/
+export PATH=$PATH:$HOME/.ghcup/bin/
+
+export RISCV=/opt/riscv/
+
+#[ -f "/home/arttaaz/.ghcup/env" ] && source "/home/arttaaz/.ghcup/env" # ghcup-env
+[ -f "/home/arttaaz/.ghcup/env" ] && source "/home/arttaaz/.ghcup/env" # ghcup-env
 
 eval "$(starship init zsh)"
-
