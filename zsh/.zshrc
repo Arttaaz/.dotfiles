@@ -115,4 +115,5 @@ export RISCV=/opt/riscv/
 #[ -f "/home/arttaaz/.ghcup/env" ] && source "/home/arttaaz/.ghcup/env" # ghcup-env
 [ -f "/home/arttaaz/.ghcup/env" ] && source "/home/arttaaz/.ghcup/env" # ghcup-env
 
+source <(llvm zsh)
 eval "$(starship init zsh)"

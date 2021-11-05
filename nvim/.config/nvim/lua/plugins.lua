@@ -59,4 +59,6 @@ return require('packer').startup(function()
 	use 'Xuyuanp/nerdtree-git-plugin'
 	
 	use 'tyru/eskk.vim'
+
+	use 'mg979/vim-visual-multi'
 end)
